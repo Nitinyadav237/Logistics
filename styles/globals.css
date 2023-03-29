@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+*{
+    padding:0;
+    margin:0;
+}
+.container{
+    width:90%
+}
+.head{
+    background-image: url("/public/assets/hero-bg.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-left:122px;
+    padding-right:-22px;
+    
+
+}
+.ant-collapse-header-text{
+    font-size: 16px !important;
+    font-weight: 400 !important;
+    letter-spacing: 0.3px !important;
+}
+.ant-collapse-content-box p{
+    font-size: 16px !important;
+    font-weight: 400 !important;
+    letter-spacing: 0.3px !important;
+}
+.logo{
+    height:auto ;
+    max-width:108px;
+    position:absolute ;
+    left:23px;
+   
+
+  }
